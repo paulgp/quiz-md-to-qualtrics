@@ -1,0 +1,466 @@
+{
+    "SurveyEntry": {
+        "SurveyID": "SV_b0ZH9YCo0RfquCG",
+        "SurveyName": "Day 12 Quiz",
+        "SurveyDescription": null,
+        "SurveyOwnerID": "UR_9nl2sthSYJukAfj",
+        "SurveyBrandID": "yalesurvey",
+        "DivisionID": null,
+        "SurveyLanguage": "EN",
+        "SurveyActiveResponseSet": "RS_2bjmecZwzqVuKLs",
+        "SurveyStatus": "Inactive",
+        "SurveyStartDate": "0000-00-00 00:00:00",
+        "SurveyExpirationDate": "0000-00-00 00:00:00",
+        "SurveyCreationDate": "2024-02-28 09:09:25",
+        "CreatorID": "UR_9nl2sthSYJukAfj",
+        "LastModified": "2024-10-28 22:51:55",
+        "LastAccessed": "0000-00-00 00:00:00",
+        "LastActivated": "2024-02-28 09:11:42",
+        "Deleted": null
+    },
+    "SurveyElements": [
+        {
+            "SurveyID": "SV_b0ZH9YCo0RfquCG",
+            "Element": "BL",
+            "PrimaryAttribute": "Survey Blocks",
+            "SecondaryAttribute": null,
+            "TertiaryAttribute": null,
+            "Payload": {
+                "2": {
+                    "Type": "Standard",
+                    "SubType": "",
+                    "Description": "Identifiers",
+                    "ID": "BL_7PtjEATxAK2n2tw",
+                    "BlockElements": [
+                        {
+                            "Type": "Question",
+                            "QuestionID": "QID2"
+                        },
+                        {
+                            "Type": "Question",
+                            "QuestionID": "QID8"
+                        },
+                        {
+                            "Type": "Question",
+                            "QuestionID": "QID9"
+                        }
+                    ]
+                },
+                "3": {
+                    "Type": "Standard",
+                    "SubType": "",
+                    "Description": "Block 3",
+                    "ID": "BL_13276399b5cf437f96875157435236b8",
+                    "BlockElements": [
+                        {
+                            "Type": "Question",
+                            "QuestionID": "QID10"
+                        }
+                    ]
+                },
+                "4": {
+                    "Type": "Standard",
+                    "SubType": "",
+                    "Description": "Block 4",
+                    "ID": "BL_fd27de60761740618a5264e2aab607de",
+                    "BlockElements": [
+                        {
+                            "Type": "Question",
+                            "QuestionID": "QID11"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "SurveyID": "SV_b0ZH9YCo0RfquCG",
+            "Element": "FL",
+            "PrimaryAttribute": "Survey Flow",
+            "SecondaryAttribute": null,
+            "TertiaryAttribute": null,
+            "Payload": {
+                "Flow": [
+                    {
+                        "ID": "BL_7PtjEATxAK2n2tw",
+                        "Type": "Standard",
+                        "FlowID": "FL_3"
+                    },
+                    {
+                        "ID": "BL_13276399b5cf437f96875157435236b8",
+                        "Type": "Standard",
+                        "FlowID": "FL_4"
+                    },
+                    {
+                        "ID": "BL_fd27de60761740618a5264e2aab607de",
+                        "Type": "Standard",
+                        "FlowID": "FL_5"
+                    }
+                ],
+                "Properties": {
+                    "Count": 6
+                },
+                "FlowID": "FL_1",
+                "Type": "Root"
+            }
+        },
+        {
+            "SurveyID": "SV_b0ZH9YCo0RfquCG",
+            "Element": "PL",
+            "PrimaryAttribute": "Preview Link",
+            "SecondaryAttribute": null,
+            "TertiaryAttribute": null,
+            "Payload": {
+                "PreviewType": "Brand",
+                "PreviewID": "bd19e571-d66e-45eb-b7b3-25dac6f9c41d"
+            }
+        },
+        {
+            "SurveyID": "SV_b0ZH9YCo0RfquCG",
+            "Element": "RS",
+            "PrimaryAttribute": "RS_2bjmecZwzqVuKLs",
+            "SecondaryAttribute": null,
+            "TertiaryAttribute": null,
+            "Payload": null
+        },
+        {
+            "SurveyID": "SV_b0ZH9YCo0RfquCG",
+            "Element": "SO",
+            "PrimaryAttribute": "Survey Options",
+            "SecondaryAttribute": null,
+            "TertiaryAttribute": null,
+            "Payload": {
+                "BackButton": "true",
+                "SaveAndContinue": "true",
+                "SurveyProtection": "PublicSurvey",
+                "BallotBoxStuffingPrevention": "false",
+                "NoIndex": "Yes",
+                "SecureResponseFiles": "true",
+                "SurveyExpiration": null,
+                "SurveyTermination": "DefaultMessage",
+                "Header": "",
+                "Footer": "",
+                "ProgressBarDisplay": "None",
+                "PartialData": "+1 hour",
+                "ValidationMessage": null,
+                "PreviousButton": " \u2190 ",
+                "NextButton": " \u2192 ",
+                "SurveyTitle": "Day 12 Quiz",
+                "SkinLibrary": "yalesurvey",
+                "SkinType": "templated",
+                "Skin": {
+                    "brandingId": "410503645",
+                    "templateId": "*base",
+                    "overrides": null
+                },
+                "NewScoring": 1,
+                "SurveyMetaDescription": "Daily quiz for investment management",
+                "EOSMessage": null,
+                "ShowExportTags": "false",
+                "CollectGeoLocation": "false",
+                "PasswordProtection": "Yes",
+                "AnonymizeResponse": "No",
+                "RefererCheck": "No",
+                "UseCustomSurveyLinkCompletedMessage": null,
+                "SurveyLinkCompletedMessage": null,
+                "SurveyLinkCompletedMessageLibrary": null,
+                "ResponseSummary": "No",
+                "EOSMessageLibrary": null,
+                "EOSRedirectURL": null,
+                "EmailThankYou": "false",
+                "ThankYouEmailMessageLibrary": null,
+                "ThankYouEmailMessage": null,
+                "ValidateMessage": "false",
+                "ValidationMessageLibrary": null,
+                "InactiveSurvey": "DefaultMessage",
+                "PartialDeletion": null,
+                "PartialDataCloseAfter": "SurveyStart",
+                "InactiveMessageLibrary": null,
+                "InactiveMessage": null,
+                "AvailableLanguages": {
+                    "EN": []
+                },
+                "SurveyLinkExpirationMessageType": "DefaultMessage",
+                "SurveyLinkExpirationMessage": null,
+                "SurveyLinkExpirationMessageLibrary": null,
+                "Password": "test",
+                "ProtectSelectionIds": true,
+                "CustomStyles": []
+            }
+        },
+        {
+            "SurveyID": "SV_b0ZH9YCo0RfquCG",
+            "Element": "QGO",
+            "PrimaryAttribute": "QGO_QuotaGroupOrder",
+            "SecondaryAttribute": null,
+            "TertiaryAttribute": null,
+            "Payload": [
+                "QG_4VgKWGicLiuwwGT"
+            ]
+        },
+        {
+            "SurveyID": "SV_b0ZH9YCo0RfquCG",
+            "Element": "SCO",
+            "PrimaryAttribute": "Scoring",
+            "SecondaryAttribute": null,
+            "TertiaryAttribute": null,
+            "Payload": {
+                "ScoringCategories": [],
+                "ScoringCategoryGroups": [],
+                "ScoringSummaryCategory": null,
+                "ScoringSummaryAfterQuestions": 0,
+                "ScoringSummaryAfterSurvey": 0,
+                "DefaultScoringCategory": null,
+                "AutoScoringCategory": null
+            }
+        },
+        {
+            "SurveyID": "SV_b0ZH9YCo0RfquCG",
+            "Element": "PROJ",
+            "PrimaryAttribute": "CORE",
+            "SecondaryAttribute": null,
+            "TertiaryAttribute": "1.1.0",
+            "Payload": {
+                "ProjectCategory": "CORE",
+                "SchemaVersion": "1.1.0"
+            }
+        },
+        {
+            "SurveyID": "SV_b0ZH9YCo0RfquCG",
+            "Element": "STAT",
+            "PrimaryAttribute": "Survey Statistics",
+            "SecondaryAttribute": null,
+            "TertiaryAttribute": null,
+            "Payload": {
+                "MobileCompatible": true,
+                "ID": "Survey Statistics"
+            }
+        },
+        {
+            "SurveyID": "SV_b0ZH9YCo0RfquCG",
+            "Element": "QC",
+            "PrimaryAttribute": "Survey Question Count",
+            "SecondaryAttribute": "5",
+            "TertiaryAttribute": null,
+            "Payload": null
+        },
+        {
+            "SurveyID": "SV_b0ZH9YCo0RfquCG",
+            "Element": "SQ",
+            "PrimaryAttribute": "QID2",
+            "SecondaryAttribute": "Enter your first name",
+            "TertiaryAttribute": null,
+            "Payload": {
+                "QuestionText": "Enter your first name",
+                "DefaultChoices": false,
+                "DataExportTag": "Q2",
+                "QuestionType": "TE",
+                "Selector": "SL",
+                "Configuration": {
+                    "QuestionDescriptionOption": "UseText"
+                },
+                "QuestionDescription": "Enter your first name",
+                "Validation": {
+                    "Settings": {
+                        "ForceResponse": "ON",
+                        "ForceResponseType": "ON",
+                        "Type": "None"
+                    }
+                },
+                "GradingData": [],
+                "Language": [],
+                "NextChoiceId": 4,
+                "NextAnswerId": 1,
+                "SearchSource": {
+                    "AllowFreeResponse": "false"
+                },
+                "QuestionID": "QID2",
+                "DataVisibility": {
+                    "Private": false,
+                    "Hidden": false
+                }
+            }
+        },
+        {
+            "SurveyID": "SV_b0ZH9YCo0RfquCG",
+            "Element": "SQ",
+            "PrimaryAttribute": "QID8",
+            "SecondaryAttribute": "Enter your last name",
+            "TertiaryAttribute": null,
+            "Payload": {
+                "QuestionText": "Enter your last name",
+                "DefaultChoices": false,
+                "DataExportTag": "Q8",
+                "QuestionType": "TE",
+                "Selector": "SL",
+                "Configuration": {
+                    "QuestionDescriptionOption": "UseText"
+                },
+                "QuestionDescription": "Enter your last name",
+                "Validation": {
+                    "Settings": {
+                        "ForceResponse": "OFF",
+                        "Type": "None"
+                    }
+                },
+                "GradingData": [],
+                "Language": [],
+                "NextChoiceId": 4,
+                "NextAnswerId": 1,
+                "SearchSource": {
+                    "AllowFreeResponse": "false"
+                },
+                "QuestionID": "QID8"
+            }
+        },
+        {
+            "SurveyID": "SV_b0ZH9YCo0RfquCG",
+            "Element": "SQ",
+            "PrimaryAttribute": "QID9",
+            "SecondaryAttribute": "Enter your net id",
+            "TertiaryAttribute": null,
+            "Payload": {
+                "QuestionText": "Enter your net id",
+                "DefaultChoices": false,
+                "DataExportTag": "Q9",
+                "QuestionType": "TE",
+                "Selector": "SL",
+                "Configuration": {
+                    "QuestionDescriptionOption": "UseText"
+                },
+                "QuestionDescription": "Enter your net id",
+                "Validation": {
+                    "Settings": {
+                        "ForceResponse": "OFF",
+                        "Type": "None"
+                    }
+                },
+                "GradingData": [],
+                "Language": [],
+                "NextChoiceId": 4,
+                "NextAnswerId": 1,
+                "SearchSource": {
+                    "AllowFreeResponse": "false"
+                },
+                "QuestionID": "QID9"
+            }
+        },
+        {
+            "SurveyID": "SV_b0ZH9YCo0RfquCG",
+            "Element": "SQ",
+            "PrimaryAttribute": "QID10",
+            "SecondaryAttribute": "What is question 1?",
+            "TertiaryAttribute": null,
+            "Payload": {
+                "QuestionText": "What is question 1?",
+                "DefaultChoices": false,
+                "DataExportTag": "Q10",
+                "QuestionType": "MC",
+                "Selector": "SAVR",
+                "SubSelector": "TX",
+                "Configuration": {
+                    "QuestionDescriptionOption": "UseText"
+                },
+                "QuestionDescription": "What is question 1?",
+                "Choices": {
+                    "1": {
+                        "Display": "Choice A"
+                    },
+                    "2": {
+                        "Display": "Choice B"
+                    },
+                    "3": {
+                        "Display": "Choice C"
+                    },
+                    "4": {
+                        "Display": "Choice D"
+                    }
+                },
+                "ChoiceOrder": [
+                    "1",
+                    "2",
+                    "3",
+                    "4"
+                ],
+                "Validation": {
+                    "Settings": {
+                        "ForceResponse": "ON",
+                        "ForceResponseType": "ON",
+                        "Type": "None"
+                    }
+                },
+                "Language": [],
+                "NextChoiceId": 5,
+                "NextAnswerId": 1,
+                "QuestionID": "QID10",
+                "DataVisibility": {
+                    "Private": false,
+                    "Hidden": false
+                },
+                "Randomization": {
+                    "Advanced": null,
+                    "Type": "All",
+                    "TotalRandSubset": ""
+                }
+            }
+        },
+        {
+            "SurveyID": "SV_b0ZH9YCo0RfquCG",
+            "Element": "SQ",
+            "PrimaryAttribute": "QID11",
+            "SecondaryAttribute": "What is question 2?",
+            "TertiaryAttribute": null,
+            "Payload": {
+                "QuestionText": "What is question 2?",
+                "DefaultChoices": false,
+                "DataExportTag": "Q11",
+                "QuestionType": "MC",
+                "Selector": "SAVR",
+                "SubSelector": "TX",
+                "Configuration": {
+                    "QuestionDescriptionOption": "UseText"
+                },
+                "QuestionDescription": "What is question 2?",
+                "Choices": {
+                    "1": {
+                        "Display": "Choice A"
+                    },
+                    "2": {
+                        "Display": "Choice B"
+                    },
+                    "3": {
+                        "Display": "Choice C"
+                    },
+                    "4": {
+                        "Display": "Choice D"
+                    }
+                },
+                "ChoiceOrder": [
+                    "1",
+                    "2",
+                    "3",
+                    "4"
+                ],
+                "Validation": {
+                    "Settings": {
+                        "ForceResponse": "ON",
+                        "ForceResponseType": "ON",
+                        "Type": "None"
+                    }
+                },
+                "Language": [],
+                "NextChoiceId": 5,
+                "NextAnswerId": 1,
+                "QuestionID": "QID11",
+                "DataVisibility": {
+                    "Private": false,
+                    "Hidden": false
+                },
+                "Randomization": {
+                    "Advanced": null,
+                    "Type": "All",
+                    "TotalRandSubset": ""
+                }
+            }
+        }
+    ]
+}
