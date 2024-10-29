@@ -12,3 +12,9 @@ Features (implemented and to implement):
 - Change title of the survey [Done] -- use the --title "newtitle" option on the python script
 - Generate answer key for grading [Todo]
 - Automatically grade assignments [Todo]
+
+# Example usage:
+From the command line:
+```
+python create_quiz.py --input "markdown_questions.md" --output "survey_quiz.qsf" --title "My Survey" --password "mypassword"
+```

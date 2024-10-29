@@ -197,13 +197,17 @@ def main():
     parser.add_argument(
         '--password', help='Set the survey password', default=None)
     parser.add_argument('--title', help='Set the survey title', default=None)
+    parser.add_argument('--input', help='Set the input file',
+                        default='markdown_questions.md')
+    parser.add_argument('--output', help='Set the output quiz name',
+                        default='updated_survey.qsf')
     args = parser.parse_args()
 
     # Read the markdown questions
     try:
-        questions = read_markdown_questions('markdown_questions.md')
+        questions = read_markdown_questions(args.input)
     except FileNotFoundError:
-        print("Error: markdown_questions.md not found!")
+        print("Error: %s not found!" % args.input)
         return
 
     # Read the template
@@ -223,10 +227,10 @@ def main():
     )
 
     # Write the updated template
-    with open('updated_survey.qsf', 'w', encoding='utf-8') as f:
+    with open(args.output, 'w', encoding='utf-8') as f:
         json.dump(updated_template, f, indent=4)
 
-    print("Successfully created updated_survey.qsf!")
+    print("Successfully created %s!" % args.output)
 
 
 if __name__ == "__main__":
