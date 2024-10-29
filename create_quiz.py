@@ -86,15 +86,22 @@ def create_question_element(survey_id, question_text, choices, qid_num):
     }
 
 
-def update_qsf_template(template_data, markdown_questions, password=None):
+def update_qsf_template(template_data, markdown_questions, password=None, title=None):
     """Update QSF template with new questions from markdown."""
     survey_id = template_data["SurveyEntry"]["SurveyID"]
 
+    # Update title if provided
+    if title:
+        template_data["SurveyEntry"]["SurveyName"] = title
+
     # Update password if provided
-    if password:
+    if password or title:
         for element in template_data["SurveyElements"]:
             if element["Element"] == "SO":
-                element["Payload"]["Password"] = password
+                if password:
+                    element["Payload"]["Password"] = password
+                if title:
+                    element["Payload"]["SurveyTitle"] = title
 
     # Update last modified timestamp
     template_data["SurveyEntry"]["LastModified"] = datetime.now().strftime(
@@ -189,6 +196,7 @@ def main():
         description='Update Qualtrics quiz template with new questions.')
     parser.add_argument(
         '--password', help='Set the survey password', default=None)
+    parser.add_argument('--title', help='Set the survey title', default=None)
     args = parser.parse_args()
 
     # Read the markdown questions
@@ -207,7 +215,12 @@ def main():
         return
 
     # Update the template
-    updated_template = update_qsf_template(template, questions, args.password)
+    updated_template = update_qsf_template(
+        template,
+        questions,
+        password=args.password,
+        title=args.title
+    )
 
     # Write the updated template
     with open('updated_survey.qsf', 'w', encoding='utf-8') as f:
