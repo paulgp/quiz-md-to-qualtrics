@@ -9,6 +9,6 @@ Features (implemented and to implement):
 - Implement open text questions [Todo]
 - Implement rating scale questions [Todo]
 - Add password to the survey [Done] -- use the --password "newpassword" option on the python script
-- Change title of the survey [Todo]
+- Change title of the survey [Done] -- use the --title "newtitle" option on the python script
 - Generate answer key for grading [Todo]
 - Automatically grade assignments [Todo]
